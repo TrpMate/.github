@@ -1,12 +1,91 @@
-## Hi there 👋
+# 🧳 `TripMate`
 
-<!--
+![TripMate_Logo](https://github.com/user-attachments/assets/91007353-aa06-4d00-966d-6d7f7c7a2819)
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 🗒️ **프로젝트 소개**
+
+**TripMate**는 사용자가 여행 일정을 계획하고, 동행자들과 함께 공유하며 실시간으로 여행 코스를 수정하고 소통할 수 있는 플랫폼입니다.
+
+사용자는 여행 코스 전체를 추천받을 수도 있고, 특정 날짜나 장소에 대한 추천을 받을 수도 있습니다. 또한, 이동 시간을 확인하여 경로를 최적화할 수 있고, 실시간 채팅과 알림 기능을 통해 동행자들과 원활하게 소통할 수 있습니다.
+
+---
+
+## 💻 주요 기능
+
+### 1) 일정 추천 및 경로 최적화
+- **기능**: 여행 코스 자동 생성, 경로 최적화 및 추천 시스템 구현
+- **기술 스택**: `Java`, `Spring Boot`, `Google Maps API`, `TourAPI`
+- **포인트**: 공공 교통 정보 데이터 확인 및 추천 알고리즘 구현
+
+### 2) 장소 조회와 검색
+- **기능**: 숙소, 맛집, 관광지 등을 볼 수 있게끔 조회와 검색 기능 구성
+- **기술 스택**: `Java`, `Spring Boot`, `JPA`, `TourAPI`
+- **포인트**: `TourAPI`에 있는 데이터를 기반으로 적절한 쿼리문 작성
+
+### 3) 사용자 및 동행자 관리
+- **기능**: 사용자 관리 (회원가입, 로그인, 마이페이지 등), 동행자 관리(초대 및 관리)
+- **기술 스택**: `Java`, `Spring Boot`, `JWT`, `OAuth`
+- **포인트**: 전반적인 회원 관리와 동행자 팀 관리 필요
+
+### 4) 실시간 채팅 및 코멘트 관리
+- **기능**: 실시간 채팅 및 알림 기능 구현, 각 코스의 코멘트 관리
+- **기술 스택**: `Java`, `Spring Boot`, `WebSocket`
+- **포인트**: 동행자 팀끼리 소통 가능한 채팅과 코멘트, 알림 시스템 구현 필요
+
+### 5) 사용자 피드백 및 리뷰 시스템
+- **기능**: 사용자 리뷰 및 피드백을 수집하고, 사용자 의견을 바탕으로 시스템 개선
+- **기술 스택**: `Java`, `Spring Boot`, `JPA`
+- **포인트**: 리뷰 작성 및 관리, 사용자 피드백 반영을 위한 기능 구현
+
+### 6) 프로그램 배포
+- **기능**: 애플리케이션을 실제 사용자에게 배포하여 서비스 제공
+- **기술 스택**: `AWS`, `Docker`, `Jenkins`, `Nginx`
+- **포인트**: `Git` 기반으로 자동화 배포 시스템 구축
+
+---
+
+## 👥 **팀원 역할 분담**
+
+1. **팀원 1: 코스 및 추천 엔진 + 배포** ([kcm02](https://github.com/kcm02))
+   - **주요 기능**: 여행 일정 자동 생성, 경로 최적화 및 추천 시스템
+   - **서브 기능**: 배포
+
+2. **팀원 2: 실시간 채팅 및 코멘트 + 사용자 피드백** ([hwazxcv](https://github.com/hwazxcv))
+   - **주요 기능**: 실시간 채팅 기능 및 알림, 코스별 코멘트
+   - **서브 기능**: 사용자 피드백 수집
+
+3. **팀원 3: 사용자와 팀 관리 + 장소 검색** ([cdayeon](https://github.com/cdayeon))
+   - **주요 기능**: 사용자 관리, 동행자 관리, 프로젝트 전체 보안
+   - **서브 기능**: 장소 조회와 검색
+
+---
+
+## 📝 **프로젝트 진행 계획** (약 3개월 소요 예상)
+
+1. **1-3주**:
+   - 요구 사항 분석 및 설계
+   - 사용자 관리 및 보안 시스템 설계 및 기본 구현 시작
+   - 데이터 연동 및 기본 기능 구현
+
+2. **4-9주**:
+   - 주요 기능 개발 및 통합
+   - 실시간 채팅 및 알림 기능 개발
+   - 추천 시스템 및 일정 미리보기 기능 개발
+   - 동행자 관리 및 코스 수정 기능 개발
+
+3. **10-12주**:
+   - 전체 시스템 통합 및 테스트
+   - 배포 준비 및 최종 점검
+   - 문서화 및 사용자 피드백 반영
+
+### **기타 고려 사항**
+- **보안**: 사용자 데이터 보호와 인증 시스템 구축에 집중, 데이터 암호화 및 권한 관리 포함
+- **통합 테스트**: 각 기능의 통합 및 상호작용 테스트
+- **문서화**: 개발 문서 작성 및 유지보수 계획 수립
+
+### 여건이 되면 추가할 것
+- **매칭 서비스**: 여행 동행자를 구할 수 있는 매칭 시스템
+- **예약 시스템**: 숙소 등 예약이 필요한 장소를 예약하거나 예약 링크를 보내주는 시스템
+
+---
