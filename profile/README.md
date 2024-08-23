@@ -1,6 +1,20 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:1E90FF&height=230&section=header&text=TripMate&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=함께%20계획하는%20우리의%20여행&descAlignY=55&descAlign=50&descSize=20" alt="header" />
+</p>
+
+
+
 # 🧳 `TripMate`
 
-![TripMate_Logo](https://github.com/user-attachments/assets/91007353-aa06-4d00-966d-6d7f7c7a2819)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33db2d0b-f884-4770-bd34-ab1373ff805a" alt="TripMate Logo" width="700">
+</p>
+
+## 📚 목차
+1. [프로젝트 소개](#프로젝트-소개)
+2. [주요 기능](#주요-기능)
+3. [팀원 역할 분담](#팀원-역할-분담)
+4. [프로젝트 진행 계획](#프로젝트-진행-계획)
 
 
 ## 🗒️ **프로젝트 소개**
@@ -88,4 +102,6 @@
 - **매칭 서비스**: 여행 동행자를 구할 수 있는 매칭 시스템
 - **예약 시스템**: 숙소 등 예약이 필요한 장소를 예약하거나 예약 링크를 보내주는 시스템
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:1E90FF&height=150&section=footer" alt="footer" />
+</p>
