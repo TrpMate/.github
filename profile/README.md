@@ -4,6 +4,10 @@
 
 # 🧳 `TripMate`
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/33db2d0b-f884-4770-bd34-ab1373ff805a" alt="TripMate Logo" width="700">
+</p>
+
 
 ## 📚 목차
 1. [프로젝트 소개](#프로젝트-소개)
