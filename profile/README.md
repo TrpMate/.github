@@ -2,13 +2,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,100:1E90FF&height=230&section=header&text=TripMate&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=함께%20계획하는%20우리의%20여행&descAlignY=55&descAlign=50&descSize=20" alt="header" />
 </p>
 
-
-
 # 🧳 `TripMate`
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/33db2d0b-f884-4770-bd34-ab1373ff805a" alt="TripMate Logo" width="700">
-</p>
 
 ## 📚 목차
 1. [프로젝트 소개](#프로젝트-소개)
